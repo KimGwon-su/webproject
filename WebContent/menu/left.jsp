@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<a href = "https://www.naver.com">네이버</a>
+<a href = "../myinfo.jsp" target = "_blank">내정보</a>
 <br>
 <a href = "https://www.daum.net">다음</a>
 <br>

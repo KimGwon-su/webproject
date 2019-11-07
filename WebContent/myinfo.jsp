@@ -19,7 +19,7 @@ LocalDate lastDayOfThisMonth = LocalDate.now().withDayOfMonth(today.lengthOfMont
 html, body, #wrap { min-height: 100%; }
 
 /* container */
-#header { width: 100%; padding: 10px 0; background: #2c4d51; text-align: center; color: #fff; }
+#header { width: 100%; padding: 10px 0; background: #2c4d51; text-align: center; color:#f155g4; }
 #container_wrap { position: relative; width: 100%; min-height: 100%; }
 #sidebar_left,
 #sidebar_right {
@@ -53,12 +53,7 @@ a:hover {text-decoration:none; color : black;}
 			<%@include file="./menu/right.jsp"%>
 		</div>
 		<div id="contents_print">
-			<br>
-			<font size="20">첫화면</font>
-			<h1>헤더1</h1>
-			<h2>헤더2</h2>
-			<h3>헤더3</h3>
-			<h4>헤더4</h4>
+			내정보 화면
 		</div>
 	</div>
 </div>
